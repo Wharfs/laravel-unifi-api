@@ -1,6 +1,7 @@
 <?php
 
 namespace Wharfs\UniFiApiClient\Services\Concerns;
+
 use Illuminate\Support\Facades\Http;
 
 trait HasFake
