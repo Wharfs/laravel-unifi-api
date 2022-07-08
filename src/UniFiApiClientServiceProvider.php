@@ -2,6 +2,9 @@
 
 namespace Wharfs\UniFiApiClient;
 
+//use Spatie\LaravelPackageTools\Package;
+//use Spatie\LaravelPackageTools\PackageServiceProvider;
+//use Wharfs\UniFiApiClient\Commands\UniFiApiClientCommand;
 use Illuminate\Support\ServiceProvider;
 use Wharfs\UniFiApiClient\UniFiApiClient as Client;
 
@@ -38,4 +41,22 @@ class UniFiApiClientServiceProvider extends ServiceProvider
             );
         });
     }
+
+        // public function configurePackage(Package $package): void
+    // {
+    //     /*
+    //      * This class is a Package Service Provider
+    //      *
+    //      * More info: https://github.com/spatie/laravel-package-tools
+    //      */
+    //     $package
+    //         ->name('laravel-unifi-api')
+    //         ->hasConfigFile()
+    //         ->hasViews()
+    //         ->hasMigration('create_laravel-unifi-api_table')
+    //         ->hasCommand(UniFiApiClientCommand::class);
+    // }
+
+    
+
 }
