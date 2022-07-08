@@ -42,7 +42,7 @@ class UniFiApiClientServiceProvider extends ServiceProvider
         });
     }
 
-        // public function configurePackage(Package $package): void
+    // public function configurePackage(Package $package): void
     // {
     //     /*
     //      * This class is a Package Service Provider
@@ -56,7 +56,4 @@ class UniFiApiClientServiceProvider extends ServiceProvider
     //         ->hasMigration('create_laravel-unifi-api_table')
     //         ->hasCommand(UniFiApiClientCommand::class);
     // }
-
-    
-
 }
