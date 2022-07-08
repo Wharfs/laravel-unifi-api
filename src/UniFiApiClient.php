@@ -17,7 +17,8 @@ class UniFiApiClient
 
     public function getSites()
     {
-        $response = [];
+        $response = array();
+        $sites = array();
 
         try {
             $unifi_connection = new UniFi($this->config['user'], $this->config['password'], $this->config['url'], $this->config['site_id'], $this->config['version']);
@@ -36,7 +37,8 @@ class UniFiApiClient
 
     public function getDevices(string $id)
     {
-        $response = [];
+        $response = array();
+        $devices = array();
 
         try {
             $unifi_connection = new UniFi($this->config['user'], $this->config['password'], $this->config['url'], $this->config['site_id'], $this->config['version']);
@@ -55,7 +57,8 @@ class UniFiApiClient
 
     public function getWlanConf(string $id)
     {
-        $response = [];
+        $response = array();
+        $devices = array();
 
         try {
             $unifi_connection = new UniFi($this->config['user'], $this->config['password'], $this->config['url'], $this->config['site_id'], $this->config['version']);
