@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Wharfs\UnifiApiClient\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class UnifiApiClientCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'unifi-api-client';
 
     public $description = 'My command';
 
