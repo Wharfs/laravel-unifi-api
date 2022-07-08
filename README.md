@@ -55,7 +55,7 @@ php artisan vendor:publish --tag="unifi-api-client-views"
 ## Usage
 
 ```php
-$unifiApiClient = new Wharfs\UnifiApiClient();
+$unifiApiClient = new Wharfs\UniFiApiClient();
 echo $unifiApiClient->echoPhrase('Hello, Wharfs!');
 ```
 

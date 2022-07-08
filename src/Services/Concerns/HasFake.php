@@ -1,6 +1,6 @@
 <?php
 
-namespace Wharfs\UnifiApiClient\Services\Concerns;
+namespace Wharfs\UniFiApiClient\Services\Concerns;
  
 use Illuminate\Support\Facades\Http;
  

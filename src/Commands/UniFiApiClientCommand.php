@@ -1,10 +1,10 @@
 <?php
 
-namespace Wharfs\UnifiApiClient\Commands;
+namespace Wharfs\UniFiApiClient\Commands;
 
 use Illuminate\Console\Command;
 
-class UnifiApiClientCommand extends Command
+class UniFiApiClientCommand extends Command
 {
     public $signature = 'unifi-api-client';
 

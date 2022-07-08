@@ -1,11 +1,11 @@
 <?php
 
-namespace Wharfs\UnifiApiClient;
+namespace Wharfs\UniFiApiClient;
 
-use Wharfs\UnifiApiClient\UnifiApiClient as Client;
+use Wharfs\UniFiApiClient\UniFiApiClient as Client;
 use Illuminate\Support\ServiceProvider;
 
-class UnifiApiClientServiceProvider extends ServiceProvider
+class UniFiApiClientServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

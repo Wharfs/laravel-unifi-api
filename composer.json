@@ -8,13 +8,11 @@
     ],
     "homepage": "https://github.com/wharfs/unifi-api-client",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Jon Wilson",
-            "email": "code@wharfs.net",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Jon Wilson",
+        "email": "code@wharfs.net",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^8.1",
         "art-of-wifi/unifi-api-client": "^1.1",
@@ -36,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Wharfs\\UnifiApiClient\\": "src",
-            "Wharfs\\UnifiApiClient\\Database\\Factories\\": "database/factories"
+            "Wharfs\\UniFiApiClient\\": "src",
+            "Wharfs\\UniFiApiClient\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wharfs\\UnifiApiClient\\Tests\\": "tests"
+            "Wharfs\\UniFiApiClient\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wharfs\\UnifiApiClient\\UnifiApiClientServiceProvider"
+                "Wharfs\\UniFiApiClient\\UniFiApiClientServiceProvider"
             ],
             "aliases": {
-                "UnifiApiClient": "Wharfs\\UnifiApiClient\\Facades\\UnifiApiClient"
+                "UniFiApiClient": "Wharfs\\UniFiApiClient\\Facades\\UniFiApiClient"
             }
         }
     },

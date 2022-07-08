@@ -1,10 +1,10 @@
 <?php
 
-namespace Wharfs\UnifiApiClient\Tests;
+namespace Wharfs\UniFiApiClient\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Wharfs\UnifiApiClient\UnifiApiClientServiceProvider;
+use Wharfs\UniFiApiClient\UniFiApiClientServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Wharfs\\UnifiApiClient\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Wharfs\\UniFiApiClient\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            UnifiApiClientServiceProvider::class,
+            UniFiApiClientServiceProvider::class,
         ];
     }
 

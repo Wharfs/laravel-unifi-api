@@ -1,6 +1,6 @@
 <?php
 
-namespace Wharfs\UnifiApiClient\Database\Factories;
+namespace Wharfs\UniFiApiClient\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

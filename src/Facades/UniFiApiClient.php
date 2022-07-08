@@ -1,13 +1,13 @@
 <?php
 
-namespace Wharfs\UnifiApiClient\Facades;
+namespace Wharfs\UniFiApiClient\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Wharfs\UnifiApiClient\UnifiApiClient
+ * @see \Wharfs\UniFiApiClient\UniFiApiClient
  */
-class UnifiApiClient extends Facade
+class UniFiApiClient extends Facade
 {
     protected static function getFacadeAccessor()
     {

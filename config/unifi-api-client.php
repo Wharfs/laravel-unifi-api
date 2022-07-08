@@ -1,8 +1,8 @@
 <?php
-// config for Wharfs/UnifiApiClient
+// config for Wharfs/UniFiApiClient
 
 return [
-    'name' => 'UnifiApiClient',
+    'name' => 'UniFiApiClient',
     'config' => [
         'url' => env('UNIFI_URL'),
         'user' => env('UNIFI_USERNAME'),

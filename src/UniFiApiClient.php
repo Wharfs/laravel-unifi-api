@@ -1,13 +1,13 @@
 <?php
 
-namespace Wharfs\UnifiApiClient;
+namespace Wharfs\UniFiApiClient;
 
-use Wharfs\UnifiApiClient\Services\Concerns\HasFake;
+use Wharfs\UniFiApiClient\Services\Concerns\HasFake;
 use UniFi_API\Client as UniFi;
 
 use Exception;
 
-class UnifiApiClient
+class UniFiApiClient
 {
 
     use HasFake;
