@@ -2,9 +2,9 @@
 
 namespace Wharfs\UniFiApiClient;
 
-use Wharfs\UniFiApiClient\Services\Concerns\HasFake;
 use Exception;
 use UniFi_API\Client as UniFi;
+use Wharfs\UniFiApiClient\Services\Concerns\HasFake;
 
 class UniFiApiClient
 {
