@@ -29,7 +29,7 @@ class UniFiApiClientServiceProvider extends ServiceProvider
     {
         //
         $this->app->singleton(Client::class, function ($app) {
-            return new Client(
+	        return new Client(
                 config: [
                     "url" => config('unifi.config.url'),
                     "user" => config('unifi.config.user'),

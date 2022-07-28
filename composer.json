@@ -1,12 +1,12 @@
 {
-    "name": "wharfs/unifi-api-client",
+    "name": "wharfs/laravel-unifi-api",
     "description": "Laravel UniFi API Client Package",
     "keywords": [
         "Wharfs",
         "laravel",
-        "unifi-api-client"
+        "laravel-unifi-api"
     ],
-    "homepage": "https://github.com/wharfs/unifi-api-client",
+    "homepage": "https://github.com/wharfs/laravel-unifi-api",
     "license": "MIT",
     "authors": [{
         "name": "Jon Wilson",
